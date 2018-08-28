@@ -27,8 +27,8 @@ function currentLine(line) {
     // if 'line' does not have a length (negated by !) then there is nobody in the queue and a string is returned stating this.
   }
 
-  const numbersAndNames = []
-  //the constant is defined as an empty array to be used in the below for loop.
+  var numbersAndNames = []
+  //the variable is defined as an empty array to be used in the below for loop.
 
   for (let i = 0; i < line.length; i++) 
   // this for loop, begins when the index value i = 0, and continues for as long as the index value is less than the length of the queue (i.e. until it reaches the end of the queue of customers), and continues in increments to the next index value (the next person in the queue).
